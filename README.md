@@ -70,16 +70,16 @@ DB_NAME=postgres
   <li>Ensure PostgreSQL is running.</li>
   <li>Create a <code>.env</code> file with:
     <pre>
-DB_HOST=localhost
-DB_PORT=5432
-DB_USER=postgres
-DB_PASS=WXuKXTrjLzLc1BP
-DB_NAME=postgres
+DB_HOST
+DB_PORT
+DB_USER
+DB_PASS
+DB_NAME
     </pre>
   </li>
   <li>Run <code>npm install</code></li>
   <li>Run <code>npm run migration:run</code></li>
-  <li>Start the server using <code>npm run start</code> or <code>npm run start:dev</code></li>
+  <li>Start the server using <code>npm run start</code> or <code>npm run start:dev</code> This runs on port 3001</li>
   <li>In order to get products with in this service, you need to start product service also</li>
   <li>Added postman collection to test apis</li>
 </ol>
